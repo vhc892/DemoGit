@@ -13,4 +13,12 @@ public class UIManager : MonoBehaviour
     {
         
     }
+    public void OpenMenu()
+    {
+        // Code to open the menu
+    }
+    public void CloseMenu()
+    {
+        // Code to close the menu
+    }
 }
