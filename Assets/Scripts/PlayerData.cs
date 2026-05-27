@@ -1,16 +1,18 @@
+using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 
 public class PlayerData : MonoBehaviour
-{
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
     {
-        
-    }
+        [Header("--- USER DATA ---")]
+        public bool isNoAds = false;
+        public int currentMapIndex = 0;
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+        public bool isSound = true;
+        public bool isMusic = true;
+        public bool isVibration = true;
+        public float musicVolume = 1f;
+
+        public int pearls = 100;
+        public int ruby = 0;
 }
