@@ -13,6 +13,6 @@ public class PlayerData : MonoBehaviour
         public bool isVibration = true;
         public float musicVolume = 1f;
 
-        public int pearls = 100;
+        public int pearls = 200;
         public int ruby = 0;
 }
